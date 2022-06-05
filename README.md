@@ -9,6 +9,6 @@
 
 
 
-#typesetting technical documents
+# typesetting technical documents
 
 LaTeX, software used for typesetting technical documents. LaTeX is a free software package created in 1985 by the American computer scientist Leslie Lamport as an addition to the TeX typesetting system. LaTeX was created to make it easier to produce general-purpose books and articles within TeX.
