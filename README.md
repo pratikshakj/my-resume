@@ -1,4 +1,5 @@
-# my-resume
+# My Resume
+This resume is built with Overleaf Latex editor.
 
 ## Built with
 
