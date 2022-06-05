@@ -1,0 +1,328 @@
+%-------------------------
+% Resume in Latex
+% Author : Pratiksha KJ
+% Based off of: 
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome}
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+% \pagestyle{fancy}
+% \fancyhf{}  % clear all header and footer fields
+% \fancyfoot{}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+      
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+
+\begin{center}
+    {\Huge \scshape Pratiksha Krishna Jadhav } \\ \vspKrace  Banglore,Karnataka \\ \vspace{1pt}
+    \small \href{tel:+91 9731280659}{ \raisebox{-0.1\height}\faPhone\ {+91-9791280659} ~} \href{mailto:pratikshakj2001@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  {pratikshakj2001@gmail.com}} ~ 
+    \href{https://linkedin.com/in/pratiksha-k-jadhav}{\raisebox{-0.2\height}\faLinkedinSquare\ {pratiksha-k-jadhav}}  ~
+    \href{https://github.com/pratikshakj}{\raisebox{-0.2\height}\faGithub\ \u{yourid}} ~
+    
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {AMC Engineering College}{07 2019 -- 07 2023}
+      {BE in Computer Science - \textbf{CGPA} - \textbf{8.45}}{Bangalore, India}
+  \resumeSubHeadingListEnd
+  
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Excellent Pre University}{04 2017 -- 05 2018}
+      {Karnataka Secondary Pre-Board - PCMC  - \textbf{Percentage} - \textbf{80\%}}{Kundapur, India}
+  \resumeSubHeadingListEnd
+
+%------RELEVANT COURSEWORK-------
+\section{COURSEWORK / SKILLS}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}[itemsep=-2pt, parsep=5pt]
+                \item Web Development
+                \item Database Management
+                \item Android Development
+                \item Microsoft PowerPoint
+                \item Microsoft Excel
+                \item Computer Skills
+                \item Leadership
+                \item Teamwork
+                \item Communication Skills
+                \item Interpersonal skills
+                \item Learning/adaptability skills
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+  \newline
+
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+       \resumeProjectHeading
+          {\href{ProjectLink.com}{\textbf{\large{\underline{Pomodoro Timer}}} \href{Project Link}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{Mini project}}}{11 2020}
+          \resumeItemListStart
+            \resumeItem{\normalsize{About project \textbf{25 minutes timer to do some productive work}.}}
+             \resumeItem{\normalsize{Project Description \textbf {Developed a Pomodoro timer and pair session updater for sushiksha platform. This was small project before we start major project that is sandbox hackathon.}}}
+             \resumeItem{\normalsize{Built with HTML, CSS, JavaScript, Flask as a frame work}}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          
+      \resumeProjectHeading
+          {\href{ProjectLink.com}{\textbf{\large{\underline{Adhyayana}}} \href{ https://adhyayana.herokuapp.com/home}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{Sandbox Hackathon by Sushiksha}}}{01 2021}
+          \resumeItemListStart
+            \resumeItem{\normalsize{About project \textbf{Digital learning platform}.}}
+             \resumeItem{\normalsize{Project Description \textbf{The main sandbox hackathon was on developing web applications. Our project ADHAYAYANA was the title of the project. It's a project based on web application development and it is a digital learning platform for the students}.}}
+             \resumeItem{\normalsize{ Built with HTML, CSS, JavaScript, Bootstrap, Python, Django as framework.}}
+            \newline
+              \newline
+          \resumeItemListEnd
+          \vspace{-13pt}
+            
+          \resumeItemListEnd 
+          
+    \resumeSubHeadingListEnd
+\vspace{-12pt}
+
+%
+
+
+%-----------EXPERIENCE-----------
+\section{INTERNSHIP}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {BOLT IoT \href{certificate Link}{\raisebox{-0.1\height}\faExternalLink }}{04 2022} 
+      {\underline{Web Development}}{Bangalore, India}
+      \resumeItemListStart
+        \resumeItem{\normalsize{About the role \textbf{Bolt Iot is a platform where we can learn the required skills for our domain and build the project based on the learning's .}}}
+  
+      \resumeItemListEnd  
+  \resumeSubHeadingListEnd
+\vspace{-12pt}
+%-----------PROGRAMMING SKILLS-----------
+\section{TECHNICAL SKILLS}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{\normalsize{Languages:}}{ \normalsize{Python, C, C++, HTML/HTML5, CSS, JavaScript, SQL,}} \\
+     \textbf{\normalsize{Developer Tools:}}{ \normalsize{VS Code, Android Studio, Dev C++, Sublime, }} \\
+     \textbf{\normalsize{Technologies/Frameworks:}}{\normalsize{  GitHub, ReactJS, Django, Flask}} \\
+    }}
+ \end{itemize}
+ \vspace{-15pt}
+
+
+%-----------INVOLVEMENT---------------
+\section{EXTRACURRICULAR}
+    \resumeSubHeadingListStart
+        \resumeSubheading{World Konkani Center}{08 2019}{\underline{VKSSF Scholar of WKC batch 2019}}{Mangalore}
+            \resumeItemListStart
+                \resumeItem{\normalsize{About the role \textbf{Platform to all the degree and medical student  to be self-esteem, get motivated and further carrier guidance.}}}
+                \resumeItemListEnd
+                
+                \resumeSubheading{VKSSF Alumni Assosiation}{03 2020}{\underline{Prerna by VAA}}{Mangalore}
+                 \resumeItemListStart
+                \resumeItem{\normalsize{About the role \textbf{Participated in the Prerna- The confluence of ideas and motivation, held on 7th March 2020 organized by World Konkani Center.}}}
+                \resumeItemListEnd
+                
+                 \resumeSubheading{AMC Engineering college}{01 2022}{\underline{Event Coordinator}}{Bangalore}
+                 \resumeItemListStart
+                \resumeItem{\normalsize{About the role \textbf{I was a part of a team called Technocrats and there I was an event coordinator and conducted some technical events for freshers.}}}
+                \resumeItemListEnd
+    \resumeSubHeadingListEnd
+ \vspace{-11pt}
+ \newpage
+ %---------CERTIFICATIONS--------------------
+ \section{CERTIFICATIONS}
+ \resumeSubHeadingListStart
+   %\resumeSubHeadingListStart
+        \begin{multicols}{2}
+            \begin{itemize}[itemsep=-2pt, parsep=5pt]
+                \item {\href{certificateLink.com}Programming in Python - Coursera}
+                \item {\href{certificateLink.com} HTML/HTML5 - Coursera}
+                \item {\href{certificateLink.com}Data Analysis in Spreadsheet - Datacamp}
+                \item {\href{certificateLink.com} Python Toolbox1 - DataCamp}
+                \item {\href{certificateLink.com}Python Toolbox2 - DataCamp}
+                \item {\href{certificateLink.com}Database concept SQL - Datacamp}
+                \item {\href{certificateLink.com}Introduction to Git - Datacamp}
+                \item {\href{certificateLink.com}Augmented and Virtual Reality - AMC}
+                \item {\href{certificateLink.com}Docker - AMC}
+                \item {\href{certificateLink.com}Javascript -TCE}
+                \item {\href{certificateLink.com}IOt Workshop - IEEE}
+ 
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEn
+ 
+\resumeSubHeadingListEnd
+ 
+  %---------WORKSHOPS--------------------
+ \section{WORKSHOPS}
+  \resumeSubHeadingListStart
+   %\resumeSubHeadingListStart
+        \begin{multicols}{1}
+            \begin{itemize}[itemsep=-2pt, parsep=5pt]
+                \item Augmented and Virtual reality by AMCEC
+                \item Ethical Hacking by AMCEC
+                \item Dockers workshop by AMCEC
+                \item Web Development by Sushiksha and TCE
+                \item Python workshop by Sushiksha
+                \item Flask workshop by Sushiksha
+                \item Iot workshop by IEEE
+                \item JavaScript workshop by TCE
+ 
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEn
+ 
+\resumeSubHeadingListEnd
+ 
+
+%-------------AWARDS AND ACHIEVEMENT'S--------------
+\section{AWARDS AND ACHIEVEMENTS}
+    \resumeSubheading{\underline{Scholars Life Skill Development Programme}}{08 2019 -- 04 2022} \newline
+        \item  SOTP - Scholars Orientation Training Program 
+        \item GMCS - General Management and Communication Skills 
+        \item IPRS - Interpersonal Relationship Program 
+
+\end{document}
