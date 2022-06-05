@@ -23,12 +23,12 @@ LaTeX is a programming language in a fashion similar to C. In particular, LaTeX 
 
 # LaTEX Editors
 
-- TeXmaker
-- TeXnicCenter
-- LyX
-- Texstudio
-- TeXworks
-- Papeeria
-- Overleaf
-- Authorea.
+- TeXmaker (https://www.xm1math.net/texmaker/)
+- TeXnicCenter (https://www.texniccenter.org/)
+- LyX (https://www.lyx.org/)
+- Texstudio (https://www.texstudio.org/)
+- TeXworks (https://tug.org/texworks/)
+- Papeeria (https://papeeria.com/)
+- Overleaf (https://www.overleaf.com/)
+- Authorea (https://www.authorea.com/)
 
